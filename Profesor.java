@@ -1,4 +1,12 @@
+import java.util.ArrayList;
+
 public class Profesor extends PersonalAcademico {
+
+    
+    public Profesor(String usuario, String contraseña, String nombre, String apellido, ArrayList<Incidente> incidente) {
+        super(usuario, contraseña, nombre, apellido, incidente);
+        
+    }
     public void cargarActividadSumativa(Curso curso, ActividadSumativa actividadSumativa){
         //logica
     }
